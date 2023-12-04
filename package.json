@@ -1,0 +1,20 @@
+{
+  "name": "trpc-uwebsockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx ./server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trpc/server": "^10.44.1",
+    "trpc-uwebsockets": "10.40.0-beta.1",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.34.0",
+    "tsx": "^4.6.1",
+    "zod": "^3.22.4"
+  }
+}
