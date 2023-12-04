@@ -13,3 +13,9 @@ node_modules
 .code/
 
 .vscode/
+
+# output
+
+dist
+build
+output

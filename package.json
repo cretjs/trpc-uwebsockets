@@ -2,9 +2,10 @@
   "name": "trpc-uwebsockets",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
     "dev": "tsx ./server.ts",
+    "build": "ncc build ./server.ts -o dist -m ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,9 +13,12 @@
   "license": "ISC",
   "dependencies": {
     "@trpc/server": "^10.44.1",
+    "@types/node": "^20.10.3",
+    "@vercel/ncc": "^0.38.1",
     "trpc-uwebsockets": "10.40.0-beta.1",
-    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.34.0",
     "tsx": "^4.6.1",
+    "typescript": "^5.3.2",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v20.34.0",
     "zod": "^3.22.4"
   }
 }
