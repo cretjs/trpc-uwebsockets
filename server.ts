@@ -53,7 +53,7 @@ app.any('/*', (res) => {
   res.writeHeader( "Content-Type", "text/html; charset=utf-8" );
   res.end( "<b>404 Not Found</b>" );
 });
-
-app.listen('localhost', 8000, () => {
+// use `localhost` make autocannon not work, must use 127.0.0.1
+app.listen('127.0.0.1', 8000, () => {
   console.log('Server listening on http://localhost:8000');
 });
