@@ -21,5 +21,12 @@ Req/Bytes counts sampled once per second.
 
 3983k requests in 20.08s, 645 MB read
 
+# benchmark 
+general
+55m, 0%
+
+low memory and cpu using
+150m，100%
+
 # trpc-uWebSockets.js 安装
 pnpm add uNetworking/uWebSockets.js
