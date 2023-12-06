@@ -15,16 +15,16 @@ dependencies:
     specifier: ^0.38.1
     version: 0.38.1
   trpc-uwebsockets:
-    specifier: 10.40.0-beta.1
-    version: 10.40.0-beta.1
+    specifier: 10.44.0
+    version: 10.44.0
   tsx:
-    specifier: ^4.6.1
-    version: 4.6.1
+    specifier: ^4.6.2
+    version: 4.6.2
   typescript:
     specifier: ^5.3.2
     version: 5.3.2
   uWebSockets.js:
-    specifier: uNetworking/uWebSockets.js#v20.34.0
+    specifier: github:uNetworking/uWebSockets.js#v20.34.0
     version: github.com/uNetworking/uWebSockets.js/fca27c05066342b01951782248640c8013b37196
   zod:
     specifier: ^3.22.4
@@ -294,15 +294,15 @@ packages:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
     dev: false
 
-  /trpc-uwebsockets@10.40.0-beta.1:
-    resolution: {integrity: sha512-4kz6DGrz6d1kbYJM4kSG3+0QD8Gxa00O25wgwZHc0AAhNWPCkJLrl1Fd03nHiZqKm6vSDleB3ues3RwO2TCG/w==}
+  /trpc-uwebsockets@10.44.0:
+    resolution: {integrity: sha512-1IajZvPgTgQDTZh6rFqTAq4Z/lJAzkjSLpRsrAqCS8iKdDarSOwwJ/qBoFg6pM7vReeKKwie5K1f+9kayKPxMg==}
     dependencies:
       '@trpc/server': 10.44.1
-      uWebSockets.js: github.com/uNetworking/uWebSockets.js/21c0e41a662c27bcc29b64f3e9d7f0bdaa6d7ee7
+      uWebSockets.js: github.com/uNetworking/uWebSockets.js/fca27c05066342b01951782248640c8013b37196
     dev: false
 
-  /tsx@4.6.1:
-    resolution: {integrity: sha512-OQ4TAPHXAPUo/NZAmmIybl0o8LFOTlycQxFepLBAp6EV87U88fOKYGCQI2viGAEOVU9UW/cgQcxcOMnfEKVY3Q==}
+  /tsx@4.6.2:
+    resolution: {integrity: sha512-QPpBdJo+ZDtqZgAnq86iY/PD2KYCUPSUGIunHdGwyII99GKH+f3z3FZ8XNFLSGQIA4I365ui8wnQpl8OKLqcsg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
@@ -324,12 +324,6 @@ packages:
 
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
-    dev: false
-
-  github.com/uNetworking/uWebSockets.js/21c0e41a662c27bcc29b64f3e9d7f0bdaa6d7ee7:
-    resolution: {tarball: https://codeload.github.com/uNetworking/uWebSockets.js/tar.gz/21c0e41a662c27bcc29b64f3e9d7f0bdaa6d7ee7}
-    name: uWebSockets.js
-    version: 20.32.0
     dev: false
 
   github.com/uNetworking/uWebSockets.js/fca27c05066342b01951782248640c8013b37196:
