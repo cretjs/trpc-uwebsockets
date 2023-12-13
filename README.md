@@ -21,7 +21,7 @@ Req/Bytes counts sampled once per second.
 
 4331k requests in 20.07s, 702 MB read
 
-# benchmark 2
+# nodejs20-trpc-uwebsocketjs
 autocannon -c 1000 -d 20 -p 100 http://localhost:8000/api/trpc/hello
 Running 20s test @ http://localhost:8000/api/trpc/hello
 1000 connections with 100 pipelining factor
